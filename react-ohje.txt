@@ -1,0 +1,10 @@
+React-applikaation luominen
+
+1.> cd c:\Program Files\nodejs 
+2. > npx create-react-app projektin_nimi
+3. > cd projektin_nimi
+4. > npm start
+(5: Asenna json-server: > npm install json-server --save-dev
+-  Lisää package.json -tiedostoon "Scripts"-osioon rivi     "server": "json-server -p3001 db.json"
+-  Käynnistä json-server: > npm run server)
+6. Asenna axios: > npm install axios --save
